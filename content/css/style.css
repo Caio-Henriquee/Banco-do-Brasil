@@ -1,0 +1,615 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    border: 0;
+    font-family: poppins;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+
+
+
+#principal{
+    width: 98.9vw;
+    height: 450vh;    
+}
+
+header{
+    background-color: #FCFC30;
+    width: 100%;
+    height: 7%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+}
+
+#logo{
+    width: 8%;
+    height: 100%;
+}
+
+
+#tresBarrinhas{
+    position: absolute;
+    left: 1%;
+    top: 14%;
+    width: 2%;
+    height: 70%;
+}
+
+#simboloBB{
+    background-color: #FCFC30;
+    width: 4%;
+    height: 70%;
+    left: 3.5%;
+    top: 14%;
+    position: absolute;
+}
+
+#divHorizontal{
+    background-color: #a3a3a3;
+    width: 0.1%;
+    height: 70%;
+    left: 8%;
+    top: 14%;
+    position: absolute;
+}
+
+#opcaoHeader{
+    width: 40%;
+    height: 70%;
+    left: 8%;
+    top: 14%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+#escolhaHeader{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #525DFF;
+    margin-left: 5%;
+    
+}
+
+#barraPesquisa{
+    width: 20%;
+    height: 70%;
+    left: 49%;
+    top: 14%;
+    position: absolute;
+    border-radius: 5px;
+    display: flex;
+}
+
+#inputLupa{
+    background-color: #11121440;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-size: 1.3em;
+    background-position-y: center;
+    border-radius: 5px;
+}
+
+
+#inputLupa::placeholder {
+    color: white;
+    padding-left: 12%;
+    padding-top: 80%;
+    font-size: 17px;
+    padding-top: 70%;
+  }
+
+
+#acesseConta{
+    left: 80%;
+    position: absolute;
+    height: 100%;
+    width: 13%;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-left: 5%;
+    color: #525DFF;
+}  
+
+h2{
+    font-size: 80px;
+}
+
+#hrInicial{
+    background-color: #525DFF;
+    height: 0.5%;
+    width: 100%;
+    top: 7%;
+    position: fixed;
+    z-index: 1;
+}
+
+#imgInical{
+    position: absolute;
+    top: 7.5%;
+    height: 95%;
+    width: 100%;
+}
+
+#facilidades{
+    position: absolute;
+    height: 45%;
+    width: 30%;
+    top: 10%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    color: #525DFF;
+
+}
+
+#segundaParteImgInical{
+    position: absolute;
+    height: 20%;
+    width: 30%;
+    top: 60%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#botaoInical{
+   top: 50%;
+   height: 40%;
+   width: 40%;
+   position: absolute;
+   background-color: #525DFF;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   color: #FCFC30;
+   border-radius: 5px;
+   
+}
+
+a{
+    text-decoration: none;
+    color:#FCFC30;
+}
+
+p{
+    font-size: 20px;
+    color: #1111117c;
+}
+
+#parte2{
+    position: absolute; 
+    height: 40%;
+    width: 70%;
+    top:110%;
+    left: 15%;
+    display: flex;
+}
+
+#contaCorrente{
+    height: 90%;
+    width: 66%; 
+    box-shadow: 0 0 100px 10px #ccc;
+    
+}
+
+#tituloContaCorrente{
+    width: 25%;
+    height: 10%;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    font-size: 25px;
+    color: #FCFC30;
+    
+}
+
+#subTituloContaCorrente{
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    font-size: 15px;
+    color: white;
+}
+
+#botaoTituloContaCorrente{
+    width: 20%;
+    height: 15%;
+    position: absolute;
+    top: 55%;
+    left: 4%;
+    font-size: 15px;
+    background-color:#FCFC30;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+   
+}
+
+#buttonConta{
+    color:#525DFF;
+    background-color:#FCFC30;
+    font-size: 17px;
+    padding-top: 4%;
+    cursor: pointer;
+}
+  
+
+#cartaoCredito{
+    height: 90%;
+    width: 32%;
+    left: 68%;
+    position: absolute;
+    justify-content: flex-end;
+}
+
+
+img{
+    border-radius: 10px;
+}
+
+#aPeca{
+ text-decoration: none;
+ color: #525DFF;
+}
+
+#titulocartaoCredito{
+    width: 39%;
+    height: 30%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 25px;
+    color:#525DFF
+}
+
+#subtituloCartaoCredito{
+    width: 39%;
+    height: 10%;
+    position: absolute;
+    top: 46%;
+    left: 10%;
+    font-size: 15px;
+    color: white;
+}
+
+#linkCartaoCredito{
+    width: 39%;
+    height: 10%;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    font-size: 15px;
+    color: #525DFF;
+}
+
+#parte3{
+    position: absolute; 
+    height: 45%;
+    width: 70%;
+    top:148%;
+    left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#emprestimo{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 100px 10px #ccc;
+}
+ .textoCard{
+    height: 45%;
+    width: 32%;
+    top: 55%;
+    position: absolute;
+    background-color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+
+.tituloCard{
+    height: 30%;
+    width: 45%;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    color: #525DFF;
+    font-size: 20px;
+} 
+
+.subTituloCard{
+    height: 30%;
+    width: 90%;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    color: #646464;
+    font-size: 15px;
+}
+
+#botaoCard{
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 15px;
+    background-color:#525DFF;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+#investimento{
+    height: 100%;
+    width: 32%;
+    box-shadow: 0 0 100px 10px #ccc;
+}
+
+#textoInvestimento{
+    height: 30%;
+    width: 45%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    color: #525DFF;
+    font-size: 25px;
+}
+
+#tituloInvestimento{
+    height: 30%;
+    width: 45%;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    color: #525DFF;
+    font-size: 30px;
+} 
+
+#subTextoInvestimento{
+    height: 30%;
+    width:50%;
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    color:#525DFF;
+    font-size: 17px;
+}
+
+#botaoInvestimento{
+    width: 14%;
+    height: 18%;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 15px;
+    background-color:#525DFF;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+}
+
+
+#shop{
+    height: 100%;
+    width: 32%;
+    box-shadow: 0 0 100px 10px #ccc;
+  
+}
+
+#parte4{
+    position: absolute; 
+    height: 40%;
+    width: 70%;
+    top: 196%;
+    left: 15%;
+}
+
+#parte5{
+    position: absolute; 
+    height: 15%;
+    width: 70%;
+    top: 240%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo{
+    height: 50%;
+    font-size: 22px;
+    color: #2e2d2dcb;
+}
+
+#frase{
+    height: 50%;
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    color: #1a191985;
+}
+
+#escolhaIframe{
+    position: absolute; 
+    height: 10%;
+    width: 70%;
+    top: 260%;
+    left: 15%;
+    display: flex;  
+    justify-content: space-between
+}
+
+#opcaoIframe{  
+    height: 100%;
+    width: 50%;
+}
+
+#opcaoIframe button{
+    text-decoration: none;
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+
+#opcaoIframe :hover{
+    color: #525DFF;
+}
+
+#painelIframe{
+    position: absolute; 
+    height: 50%;
+    width: 70%;
+    top: 270%;
+    left: 15%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.painel_content1{
+
+    height: auto;
+    width: 28%;
+}
+
+.painel_content2{
+    
+    height: auto;   
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.painel_content2_1{
+    
+    height: 65%;
+    width: 100%;
+}
+
+.painel_content2_2{
+    height: 30%;
+    width: 100%;
+    background-color:#646464;
+    border-radius: 6px;
+}
+
+.painel_content3{
+    height: auto;
+    width: 37%;
+}
+
+#titulosFuncionalidades{
+    position: absolute; 
+    height: 15%;
+    width: 70%;
+    top: 340%;
+    left: 15%;
+   color: #525DFF;
+    font-size: 30px;
+    
+}
+
+#funcionalidades{
+    position: absolute; 
+    height: 22%;
+    width: 70%;
+    top: 350%;
+    left: 14%;
+    display: flex;
+    
+
+}
+
+.funcionalidadesBox{
+    height: 100%;
+    width: 30%;
+    background-color: #525DFF;
+    margin-left:  1%;
+    border-radius: 5px;
+    box-shadow: 0 0 100px 10px #ccc;
+}
+
+#abraConta{
+    position: absolute; 
+    height: 10%;
+    width: 100%;
+    top: 385%;
+    background-color:#525DFF;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 35px;
+    color: #FCFC30;
+}
+
+#botaoAbra{
+    width: 20%;
+    height: 15%;
+    position: absolute;
+    top: 55%;
+    left: 4%;
+    font-size: 15px;
+    background-color:#FCFC30;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+   
+}
+
+#botaoAbra{
+    width: 14%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 63%;
+    font-size: 20px;
+    background-color:#FCFC30;
+    display: flex;
+   align-items: center;
+   text-align: center;
+   justify-items: center    ;
+    border-radius: 5px;
+   
+
+}
+
+#botaoA{
+    color: #525DFF;
+    position: absolute;
+    left: 10%;
+}
